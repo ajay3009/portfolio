@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   const socialLinks = [
-    { href: 'https://github.com', icon: 'fab fa-github' },
+    { href: 'https://github.com/ajay3009', icon: 'fab fa-github' },
     { href: 'https://linkedin.com', icon: 'fab fa-linkedin' },
-    { href: 'https://twitter.com', icon: 'fab fa-twitter' },
-    { href: 'mailto:john.doe@example.com', icon: 'fas fa-envelope' }
+    // { href: 'https://twitter.com', icon: 'fab fa-twitter' },
+    // { href: 'mailto:john.doe@example.com', icon: 'fas fa-envelope' }
   ];
 
   return (
