@@ -24,28 +24,25 @@ const Contact = () => {
             <div className="space-y-6">
               <div>
                 <h4 className="text-lg text-gray-800 mb-2">Email</h4>
-                <p className="text-gray-600">john.doe@example.com</p>
+                <p className="text-gray-600">ajaysandy@gmail.com</p>
               </div>
               <div>
                 <h4 className="text-lg text-gray-800 mb-2">Phone</h4>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+91 (852) 798-3557</p>
               </div>
               <div>
                 <h4 className="text-lg text-gray-800 mb-2">Location</h4>
-                <p className="text-gray-600">San Francisco, CA</p>
+                <p className="text-gray-600">New Delhi, IN</p>
               </div>
             </div>
 
             <h3 className="text-2xl text-gray-800 mt-8 mb-4">Follow Me</h3>
             <div className="flex gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-800 hover:text-primary transition-colors">
+              <a href="https://github.com/ajay3009" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-800 hover:text-primary transition-colors">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-800 hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/ajay-kumar-pandit-b15666bb/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-800 hover:text-primary transition-colors">
                 <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-800 hover:text-primary transition-colors">
-                <i className="fab fa-twitter"></i>
               </a>
             </div>
           </div>
