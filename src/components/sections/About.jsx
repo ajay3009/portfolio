@@ -49,8 +49,8 @@ const About = () => {
                 <p className="text-gray-600">Happy Clients</p>
               </div>
             </div>
-            <div class="flex space-x-4">
-                        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition flex items-center">
+            <div class="flex space-x-4 mt-8">
+                        <a href="/portfolio/files/Ajay_Resume.pdf" download="Ajay_Resume.pdf" class="bg-blue-500 hover:bg-blue-600 text-white hover:text-white px-6 py-2 rounded-lg transition flex items-center">
                             <i class="fas fa-download mr-2"></i> Download CV
                         </a>
                         <a href="#contact" class="border border-blue-500 text-blue-500 hover:bg-blue-50 px-6 py-2 rounded-lg transition">
