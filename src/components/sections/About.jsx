@@ -41,11 +41,11 @@ const About = () => {
                 <p className="text-gray-600">Years Experience</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-md text-center transform hover:-translate-y-2 transition-transform">
-                <h4 className="text-4xl text-primary mb-2">50+</h4>
+                <h4 className="text-4xl text-primary mb-2">20+</h4>
                 <p className="text-gray-600">Projects Completed</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-md text-center transform hover:-translate-y-2 transition-transform">
-                <h4 className="text-4xl text-primary mb-2">20+</h4>
+                <h4 className="text-4xl text-primary mb-2">5+</h4>
                 <p className="text-gray-600">Happy Clients</p>
               </div>
             </div>
