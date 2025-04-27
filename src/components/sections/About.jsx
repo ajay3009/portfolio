@@ -53,7 +53,7 @@ const About = () => {
                         <a href="/portfolio/files/Ajay_Resume.pdf" download="Ajay_Resume.pdf" class="bg-blue-500 hover:bg-blue-600 text-white hover:text-white px-6 py-2 rounded-lg transition flex items-center">
                             <i class="fas fa-download mr-2"></i> Download CV
                         </a>
-                        <a href="#contact" class="border border-blue-500 text-blue-500 hover:bg-blue-50 px-6 py-2 rounded-lg transition">
+                        <a href="mailto:ajaysandy@gmail.com" class="border border-blue-500 text-blue-500 hover:bg-blue-50 px-6 py-2 rounded-lg transition">
                             Contact Me
                         </a>
                     </div>
