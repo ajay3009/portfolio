@@ -3,20 +3,10 @@ import { motion } from 'framer-motion';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'CEO, TechStart',
-      text: 'John transformed our outdated website into a modern, user-friendly platform. His attention to detail and problem-solving skills are exceptional. Our conversion rates increased by 40% after the redesign.',
-    },
-    {
-      name: 'Michael Chen',
-      role: 'CTO, Digital Solutions',
-      text: 'Working with John on our SaaS product was a game-changer. He not only delivered the project ahead of schedule but also suggested improvements we hadn\'t considered. His technical expertise is matched only by his professionalism.',
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Marketing Director, BrandCo',
-      text: 'John built our e-commerce platform from scratch, handling everything from database design to frontend implementation. The site has been running flawlessly for two years with minimal maintenance needed. Highly recommend!',
-    },
+      name: 'Damian Madsen',
+      role: 'CEO, Guerilla Artist Collective',
+      text: 'Ajay transformed our outdated website into a modern, user-friendly platform. His attention to detail and problem-solving skills are exceptional. Our conversion rates increased by 40% after the redesign.',
+    }
   ];
 
   return (
@@ -29,7 +19,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 w-4/12 place-items-center">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
