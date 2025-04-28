@@ -81,14 +81,12 @@ const Contact = () => {
                 className="w-full p-4 border border-gray-200 rounded-lg focus:outline-none focus:border-primary transition-colors resize-y"
               />
             </div>
-            <motion.button
+            <button
               type="submit"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-primary text-secondary font-bold rounded-lg hover:bg-primary/90 transition-colors"
+              className="px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-colors"
             >
               Send Message
-            </motion.button>
+            </button>
           </form>
         </div>
       </div>
