@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="home" className="h-screen flex items-center justify-center px-8">
+    <section id="home" className="h-screen flex items-center justify-center px-8 mt-60 md:mt-0">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className='flex flex-row items-center justify-center w-full px-8'
+        className='flex flex-col-reverse md:flex-row items-center justify-center w-full md:px-8'
       >
         <div className="md:w-1/2 mb-12 md:mb-0 animate-fadeIn">
           <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm</h1>
@@ -16,14 +16,15 @@ const Hero = () => {
           <p className="text-lg mb-8 text-gray-600 max-w-lg">
             I build exceptional digital experiences that are fast, accessible, and visually appealing.
           </p>
-          <div className="flex space-x-4 flex-col sm:flex-row">
+          <div className="flex md:space-x-4 flex-col sm:flex-row">
             <button
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition shadow-lg"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition shadow-lg mb-5 md:mb-0"
             >
               View My Work
             </button>
             <button
-              className="border-2 border-blue-500 text-blue-500 hover:bg-blue-50 px-6 py-3 rounded-lg transition"
+              onClick={() => window.open('mailto:ajaysandy@gmail.com')}
+              className="button"
             >
               Contact Me
             </button>
