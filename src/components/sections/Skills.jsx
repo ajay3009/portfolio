@@ -46,9 +46,9 @@ const Skills = () => {
       ]
     },
     {
-      title: 'Tools',
+      title: 'Build Tools',
       skills: [
-        { name: 'Webpack', level: 80 },
+        { name: 'Webpack', level: 90 },
         { name: 'Vite', level: 80 },
         { name: 'Gulp', level: 80 },
         { name: 'Grunt', level: 80 },
